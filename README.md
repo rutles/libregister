@@ -14,8 +14,8 @@ pi@raspberrypi~/libregister/source$ sudo make uninstall
 
 Usage
 
-c source -&gt #include &ltregister.h&gt<br>
-compile -&gt add option -lregister to command line tail
+c source -&gt; #include &lt;register.h&gt;<br>
+compile -&gt; add option -lregister to command line tail
 
 ex.<br>
 cc example_pwm.c -o example_pwm -lregister<br>
