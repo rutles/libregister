@@ -2,9 +2,10 @@ Raspberry Pi BCM2835 peripheral registers handling library
 
 Setup
 
-pi@raspberrypi~$ cd libregister<br>
-pi@raspberrypi~/libregister$ make<br>
-pi@raspberrypi~/libregister$ sudo make install<br>
+pi@raspberrypi~$ git clone https://github.com/rutles/libregister<br>
+pi@raspberrypi~$ cd libregister/source<br>
+pi@raspberrypi~/libregister/source$ make<br>
+pi@raspberrypi~/libregister/source$ sudo make install<br>
 
 following commands are usable as needed.
 
