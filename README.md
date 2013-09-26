@@ -19,7 +19,7 @@ compile -&gt; add option -lregister to command line tail
 
 ex.<br>
 cc example_pwm.c -o example_pwm -lregister<br>
-sudo example_pwm.c<br>
+sudo ./example_pwm.c<br>
 
 Function<br>
 see libregister/source/register.h or /usr/local/include/register.h
