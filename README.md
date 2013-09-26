@@ -1,23 +1,27 @@
 Raspberry Pi BCM2835 peripheral registers handling library
 
-setup
+Setup
 
-~$ cd libregister
-~/libregister$ make
-~/libregister$ sudo make install
+pi@raspberrypi~$ cd libregister<br>
+pi@raspberrypi~/libregister$ make<br>
+pi@raspberrypi~/libregister$ sudo make install<br>
 
 following commands are usable as needed.
 
-make clean
+make clean<br>
 sudo make uninstall
 
-usage
+Usage
 
-c source
-#include <register.h>
+c source -&gt #include &ltregister.h&gt
+compile -&gt add option -lregister to command line tail
 
-function
-see /usr/local/include/register.h
+ex.<br>
+cc example_pwm.c -o example_pwm -lregister<br>
+sudo example_pwm.c<br>
 
+Function<br>
+see source/register.h or /usr/local/include/register.h
+
+Tetsuya Suzuki, 2013<br>
 GNU General Public License
-Tetsuya Suzuki, 2013
